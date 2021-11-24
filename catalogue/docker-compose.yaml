@@ -3,5 +3,6 @@ services:
   catalogue:
     build: .
 #    image: node:14
+    network_mode: "host"
     ports:
       - "8080:8080"
