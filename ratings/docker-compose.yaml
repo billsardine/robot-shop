@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ratings:
+    build: .
+#    image: node:14
+    ports:
+      - "80:80"
