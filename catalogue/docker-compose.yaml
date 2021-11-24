@@ -4,5 +4,5 @@ services:
     build: .
 #    image: node:14
     network_mode: "host"
-    ports:
-      - "8080:8080"
+#    ports:
+#      - "8080:8080"
