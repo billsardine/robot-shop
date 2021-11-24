@@ -1,0 +1,7 @@
+version: '3'
+services:
+  cart:
+    build: .
+#    image: node:14
+    ports:
+      - "8080:8080"
