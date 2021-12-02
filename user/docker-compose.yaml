@@ -1,6 +1,6 @@
 version: '3'
 services:
-  shipping:
+  user:
     build: .
 #    image: node:14
     ports:
